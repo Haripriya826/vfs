@@ -1,0 +1,36 @@
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#terminal {
+  padding: 10px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.prompt {
+  color: #4ec9b0;
+}
+
+.output {
+  color: #dcdcaa;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #9cdcfe;
+  font-family: monospace;
+  font-size: 1em;
+  width: 90%;
+}
+
+.command-line {
+  display: flex;
+}
